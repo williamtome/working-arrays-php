@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 require 'vendor/autoload.php';
 
 use Alura\WorkingArrays\Sort;
@@ -35,8 +37,11 @@ $accountHoldersAndBuyies = [
     'João',
     49,
     'Debora',
+    '15',
 ];
 
-Utils::remove('William', $accountHoldersAndBuyies);
+print_r($accountHoldersAndBuyies);
+
+Utils::remove(15, $accountHoldersAndBuyies);
 
 print_r($accountHoldersAndBuyies);
