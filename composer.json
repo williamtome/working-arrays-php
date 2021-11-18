@@ -3,7 +3,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Alura\\WorkingArrays\\": "src/"
+            "Alura\\": "src/"
         }
     },
     "require": {}
