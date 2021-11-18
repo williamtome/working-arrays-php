@@ -17,3 +17,4 @@ Estudando este curso na plataforma da [Alura](https://cursos.alura.com.br/).
 - Transformar um array em uma string com a função `implode`
 - Remover um valor do array com a função `unset`
 - Como funciona o type juggling do PHP e como habilitar a tipagem estrita `declare(strict_types=1)`
+- Uso do autoloader
