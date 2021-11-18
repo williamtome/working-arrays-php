@@ -2,6 +2,8 @@
 
 Este repositório está relacionado ao meu estudo sobre como saber usar e manipular arrays e suas respectivas funções no PHP.
 
+Estudando este curso na plataforma da [Alura](https://cursos.alura.com.br/).
+
 ## O que estou usando?
 
 * PHP 8
