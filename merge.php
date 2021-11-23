@@ -36,3 +36,10 @@ try {
     echo $exception->getMessage();
 }
 
+echo '========================================' . PHP_EOL;
+
+if (Utils::keyExists('Joao', $accountHoldersAndBalances)) {
+    echo 'The balance of João is ' . $accountHoldersAndBalances['João'] . PHP_EOL;
+    return;
+}
+echo 'Key not found.' . PHP_EOL;
