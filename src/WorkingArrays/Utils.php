@@ -14,4 +14,9 @@ class Utils
             unset($array[$position]);
         }
     }
+
+    public static function different($array, $array2): array
+    {
+        return array_diff($array, $array2);
+    }
 }
