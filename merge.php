@@ -11,6 +11,7 @@ $accountHolders = [
     'Débora',
     'Cláudio',
     'Lucas',
+    'Mateus',
 ];
 
 $balances = [
@@ -28,7 +29,10 @@ print_r($accountHoldersAndBalances);
 
 echo '========================================' . PHP_EOL;
 
-$accountHoldersAndBalances = Utils::combine($accountHolders, $balances);
-
-print_r($accountHoldersAndBalances);
+try {
+    $accountHoldersAndBalances = Utils::combine($accountHolders, $balances);
+    print_r($accountHoldersAndBalances);
+} catch (Exception $exception) {
+    echo $exception->getMessage();
+}
 
