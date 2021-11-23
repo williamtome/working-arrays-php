@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Alura\WorkingArrays;
 
+use InvalidArgumentException;
+
 class Utils
 {
     public static function remove(string|int $value, array &$array)
@@ -27,9 +29,18 @@ class Utils
         return array_merge($array, $array2);
     }
 
-    public static function combine($array, $array2)
+    /**
+     * @throws InvalidArgumentException
+     */
+    public static function combine($array, $array2): array
     {
-        echo 'Usando o array_combine:' . PHP_EOL;
+        echo 'Using the array_combine:' . PHP_EOL;
+
+        if (count($array) != count($array2)) {
+            throw new InvalidArgumentException(
+                'Please, add a value for the element created on array.' . PHP_EOL
+            );
+        }
 
         return array_combine($array, $array2);
     }
