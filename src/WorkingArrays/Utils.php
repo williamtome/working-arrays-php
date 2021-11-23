@@ -44,4 +44,9 @@ class Utils
 
         return array_combine($array, $array2);
     }
+
+    public static function keyExists(int|string $key, array $array): bool
+    {
+        return array_key_exists($key, $array);
+    }
 }
