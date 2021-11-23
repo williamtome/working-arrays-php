@@ -19,4 +19,18 @@ class Utils
     {
         return array_diff($array, $array2);
     }
+
+    public static function merge($array, $array2)
+    {
+        echo 'Usando o array_merge:' . PHP_EOL;
+
+        return array_merge($array, $array2);
+    }
+
+    public static function combine($array, $array2)
+    {
+        echo 'Usando o array_combine:' . PHP_EOL;
+
+        return array_combine($array, $array2);
+    }
 }
