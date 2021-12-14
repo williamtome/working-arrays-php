@@ -8,7 +8,6 @@ Estudando este curso na plataforma da [Alura](https://cursos.alura.com.br/).
 
 * PHP 8
 * Composer 2
-* Docker
 
 ## O que aprendi até o momento:
 
