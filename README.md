@@ -20,3 +20,6 @@ Estudando este curso na plataforma da [Alura](https://cursos.alura.com.br/).
 - Juntar valores de 2 arrays em 1 array com a função `array_merge`
 - Combinar os valores de 2 arrays com a função `array_combine`
 - Como descobrir se a chave de um array existe com a função `array_key_exists`
+- Fazer ordenação de arrays com a função `sort`
+- Definir uma função de ordenação com `usort`
+- Conheci várias funções de ordenação como `asort`, `ksort`, `arsort` e `krsort`
