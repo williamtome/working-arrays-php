@@ -23,9 +23,7 @@ class Sort
 
     public function getSortedValues(): void
     {
-        foreach ($this->balances as $balance) {
-            echo $balance . PHP_EOL;
-        }
+        print_r(array_values($this->balances));
 
         echo '====================================' . PHP_EOL;
     }
