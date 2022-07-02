@@ -23,3 +23,7 @@ Estudando este curso na plataforma da [Alura](https://cursos.alura.com.br/).
 - Fazer ordenação de arrays com a função `sort`
 - Definir uma função de ordenação com `usort`
 - Conheci várias funções de ordenação como `asort`, `ksort`, `arsort` e `krsort`
+- Aprendi a verificar se uma variável é um array
+- Como validar se uma chave existe em um array
+- Conheci formas de verificar se um valor existe no array
+- Como buscar elementos em um array
