@@ -27,3 +27,7 @@ Estudando este curso na plataforma da [Alura](https://cursos.alura.com.br/).
 - Como validar se uma chave existe em um array
 - Conheci formas de verificar se um valor existe no array
 - Como buscar elementos em um array
+- Conheci funções que verificam as diferenças entre arrays
+- Como pegar somente as chaves e valores de um array com `array_keys` e `array_values`
+- Como unit arrays com `array_merge` e com `+`
+- Aprendi a usar o spread operator: `...`
