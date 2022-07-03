@@ -15,6 +15,9 @@ $newStudents = [
     'Lucas',
 ];
 
+/*
+ * This works on PHP 7.4 or newer
+ */
 $students = [...$students2022, ...$newStudents];
 var_dump($students);
 
