@@ -31,3 +31,8 @@ Estudando este curso na plataforma da [Alura](https://cursos.alura.com.br/).
 - Como pegar somente as chaves e valores de um array com `array_keys` e `array_values`
 - Como unit arrays com `array_merge` e com `+`
 - Aprendi a usar o spread operator: `...`
+- Adicionar item em um array usando `[]`, `array_push` e `array_unshift`
+- Como remover itens usando `array_pop`e `array_shift`
+- Como usar a função `list` e suas diferentes sintaxes
+- Usar a função `compact` e `extract`
+- Bônus: como usar `array_map`, `array_filter` e `array_reduce`
